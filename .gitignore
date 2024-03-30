@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+.dockerignore
+Gemfile.lock
+*.lock
+.vscode/settings.json

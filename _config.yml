@@ -1,0 +1,40 @@
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Dr Divyaprabha's Homoeopathic Clinic
+email: divyaprabha1977@gmail.com
+description: ""
+baseurl: "" # for gh-pages
+url: "drdivyaprabha.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: dhyani
+
+# Build settings
+markdown: kramdown
+
+url: "https://drdivyaprabha.github.io"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+permalink: pretty
+
+#sass:
+#  sass_dir: _sass
+#  style: compressed # possible values: nested expanded compact compressed
