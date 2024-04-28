@@ -706,10 +706,15 @@ button:focus {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding: 5px 0;
+  padding: 12px 0;
 }
 .cta .cta-block .working-time ul li span {
   float: right;
+}
+.cta .cta-block .working-time ul li label {
+  text-transform: none;
+  padding: 4px 0 0 16px;
+  margin: 0;
 }
 .cta .cta-block .working-time ul li:not(:last-child) {
   border-bottom: 1px solid #fff;
