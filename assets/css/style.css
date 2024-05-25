@@ -297,7 +297,7 @@ li {
 }
 
 .header-uper {
-  padding: 40px 0px;
+  padding: 20px 0px;
 }
 .header-uper .contact-info {
   float: left;
@@ -720,7 +720,7 @@ button:focus {
   border-bottom: 1px solid #fff;
 }
 .cta .cta-block .item {
-  padding: 45px 30px;
+  padding: 30px 30px;
 }
 .cta .cta-block .item i, .cta .cta-block .item h2, .cta .cta-block .item p {
   transition: all 0.2s ease;
@@ -748,6 +748,29 @@ button:focus {
 .map #map {
   height: 400px;
   color: white;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto 32px auto;
+  width: 95%;
+  padding-bottom: 38%;
+  max-height: 600px;
+  height: 0;
+  overflow: hidden;
+  border: 1px solid #48bdc5;
+  border-radius: 8px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .contact .contact-form .form-control {
@@ -993,7 +1016,7 @@ button:focus {
   padding-left: 0;
 }
 .service-box .content-list li {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 26px;
   font-weight: 500;
   padding: 4px 0px;
@@ -2632,7 +2655,6 @@ button:focus {
 }
 .footer-main .footer-top {
   padding-top: 85px;
-  padding-bottom: 60px;
 }
 .footer-main .footer-top .footer-logo {
   padding-bottom: 20px;
