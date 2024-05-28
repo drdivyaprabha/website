@@ -26,6 +26,13 @@
   <link href="assets/css/style.css" rel="stylesheet">  <!-- Stylesheets -->
 
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">  <!--Favicon-->
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    function onContactFormSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
 </head>
 
 <body>
