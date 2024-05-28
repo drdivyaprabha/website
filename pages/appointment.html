@@ -24,97 +24,36 @@ description: Everything about homoeopathy with important keywords
   <!--End Page Title-->
 
   <!-- Section -->
-  <section class="section style-three pb-0">
+  <section class="section style-three">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 order-1 order-lg-0">
           <div class="contact-area style-two pl-0 pr-0 pr-lg-4">
-            <div class="section-title">
+            <div class="section-title pb-5 text-center">
               <h3>Request <span>Appointment</span></h3>
             </div>
-            <form name="contact_form" class="default-form contact-form" action="!#" method="post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" type="text" name="Name" placeholder="Name" required="">
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" type="email" name="Email" placeholder="Email" required="">
-                  </div>
-                  <div class="form-group">
-                    <select class="form-control" name="subject">
-                      <option>Departments</option>
-                      <option>Diagnostic</option>
-                      <option>Psychological</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" type="text" name="Phone" placeholder="Phone" required="">
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" type="text" name="Date" placeholder="Date" required="" id="datepicker" autocomplete="off">
-                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                  </div>
-                  <div class="form-group">
-                    <select class="form-control" name="subject">
-                      <option>Doctor</option>
-                      <option>Diagnostic</option>
-                      <option>Psychological</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea class="form-control" name="form_message" placeholder="Your Message" required=""></textarea>
-                  </div>
-                  <div class="form-group text-center">
-                    <button type="submit" class="btn-style-one">submit now</button>
-                  </div>
-                </div>
-              </div>
-            </form>
+            {% include contact_form.html %}
           </div>
         </div>
         <div class="col-lg-6 mb-4 mb-lg-0 order-0 order-lg-1">
-          <div class="appointment-image-holder ml-0 ml-lg-4">
-            <figure>
-              <img loading="lazy" class="w-100" src="assets/images/background/appoinment.jpg" alt="Appointment">
-            </figure>
+          <div class="section-title pb-5 text-center">
+            <h3>Our expert
+              <span>Doctor</span>
+            </h3>
+          </div>
+          <div class="justify-content-center" style="display: flex; align-items: center; flex-direction: column;">
+            <img loading="lazy" src="assets/images/team/doctor.jpg" alt="doctor" class="img-fluid" style="width: 75%; border-radius: 10px;">
+            <div class="text-center pt-3">
+              <h4>Dr.Divyaprabha Patel </h4>
+              <p>(B.H.M.S.)  <br>
+                Reg. No. G-5990</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- End Section -->
-
-  <!--team section-->
-  <section class="team-section section">
-    <div class="container">
-      <div class="section-title text-center">
-        <h3>Our expert
-          <span>Doctor</span>
-        </h3>
-        <p class="mb-0">
-         
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-4 col-md-6">
-          <div class="team-member">
-            <img loading="lazy" src="assets/images/team/doctor.jpg" alt="doctor" class="img-fluid">
-            <div class="contents text-center">
-              <h4>Dr.Divyaprabha Patel </h4>
-              <p>(B.H.M.S.)  <br>
-                Reg. No. G-5990</p>
-              <a href="appointment.html" class="btn btn-main">Book Appointment</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--End team section-->
 
 </div>
 <!--End pagewrapper-->
