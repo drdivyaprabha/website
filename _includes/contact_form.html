@@ -1,5 +1,5 @@
 <div class="contact-area">
-    <form action="https://submit-form.com/AWOI0nAF5" name="contact_form" class="default-form contact-form" id="contact-form" method="POST">
+    <form action="https://submit-form.com/AWOI0nAF5" data-botpoison-public-key="pk_0384f8ef-a8af-4715-8674-5e40fc5be087" name="contact_form" class="default-form contact-form" id="contact-form" method="POST">
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
@@ -18,12 +18,13 @@
             </div>
             <div class="col-md-12">
                 <div class="form-group">
-                    <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                    <textarea class="form-control" id="message" name="message" placeholder="Message" required></textarea>
                 </div>
             </div>
             <div class="col-md-12 text-right">
                 <div class="form-group">
-                    <button type="submit" class="btn-style-one" class="g-recaptcha" data-sitekey="6LcKeOopAAAAAASgDjLZGbFdx753_RtcRPXOjoiY" data-callback="onContactFormSubmit" data-action="submit">Send</button>
+                    <input type="hidden" name="_redirect" value="https://drdivyaprabha.github.io/thanks" />
+                    <button type="submit" class="btn-style-one">Send</button>
                 </div>
             </div>
         </div>
